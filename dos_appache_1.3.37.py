@@ -78,7 +78,7 @@ if __name__ == "__main__":
         print('1ST DOS BACH EXECUTED')
         dos.attack_service(timeout=60 * 5)
         print('2ND DOS BACH EXECUTED')
-        os.system("ping 192.168.1.160")
+        os.system("ping ip")
         dos.attack_service(timeout=60 * 5)
         print('3RD DOS BACH EXECUTED')
         dos.attack_service(timeout=60 * 10)
